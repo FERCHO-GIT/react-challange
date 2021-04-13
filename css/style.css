@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 100%;
+    margin: 0;
+}
+.wrapper, .container {
+    width: 100%;
+    box-sizing: border-box;
+}
+header h1 {
+    margin: 1.4em 0;
+    font-weight: 300;
+    text-align: center;
+}
+.card {
+    box-sizing: border-box;
+    margin: 5%;
+    padding: 5%;
+    text-align: center;
+    border: 1px solid #c2d2c2;
+    border-radius: 3px;
+}
+.card h3, .card p {
+    margin: 2% 0;
+}
+footer p {
+    text-align: center;
+    margin: 1.7em 0;
+}
+
+@media screen and (min-width: 768px) {
+    .card {
+        display: inline-block;
+        width: 48%;
+        margin: 1%;
+        padding: 2%;
+        font-size: 95%;
+    }
+    .container {
+        padding: 0 1%;
+    }
+    footer p {
+        margin: 1.4em 0;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 1024px;
+        margin: 0 auto;
+    }
+    .card {
+        width: 23%;
+        font-size: 90%;
+    }
+    footer p {
+        margin: 1.2em 0;
+    }
+}
